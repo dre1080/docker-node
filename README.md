@@ -8,11 +8,11 @@
 ## How to use this image
 
 ```dockerfile
-FROM dre1080/bedrock
+FROM dre1080/node
 ```
 
 For alpine:
 
 ```dockerfile
-FROM dre1080/bedrock:alpine
+FROM dre1080/node:alpine
 ```
