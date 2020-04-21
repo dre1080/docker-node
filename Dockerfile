@@ -13,3 +13,6 @@ RUN set -ex; \
 
 ADD https://raw.githubusercontent.com/eficode/wait-for/master/wait-for /usr/local/bin/
 RUN chmod +x /usr/local/bin/wait-for
+
+RUN yarn global add lerna
+
